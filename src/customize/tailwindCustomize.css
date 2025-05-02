@@ -1,0 +1,28 @@
+
+@theme {
+    /* font-family */
+    --font-display: "Vazirmatn";
+    
+    /* colors */
+    --color-primary: oklch(53.59% 0.169 142.00);
+    --color-primary-foreground: oklch(100.00% 0.000 0);
+    --color-primary-light: oklch(93.12% 0.106 139.28);
+    --color-box: oklch(100.00% 0.000 0);
+    --color-box-foreground: oklch(0.00% 0.000 0);
+    --color-box-backend: oklch(97.02% 0.000 0);
+    --color-seprator: oklch(89.14% 0.000 0);
+    --color-mutebtn: oklch(81.41% 0.000 0);
+    --color-mutebtn-seperator: oklch(90.67% 0.000 0);
+
+    /* shadows */
+    --shadow-box : 0px 2px 4px -2px #1018280F, 0px 4px 8px -2px #1018281A;
+
+    
+}
+
+@layer base {
+    body {
+        font-family: var(--font-display);
+    }
+
+}
